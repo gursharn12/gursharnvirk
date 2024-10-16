@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .bgc{
+    
+    background-color: #fbd456;
+    
+
+}
+.nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Make sure the navbar is on top of other elements */
+  background-color:#fbd456; /* Optional, to give it a background */
+}
+  body {
+    font-family: sans-serif;
+
+  }
+  .logo{
+    text-align: end;
+  }
+  
+  #preloader {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background-color: var(--background-color);
+    transition: all 0.6s ease-out;
+    width: 100%;
+    height: 100vh;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    
+    text-transform: uppercase;
+  }
+  
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+  
+    padding-left: 20px;
+  
+    
+    
+  }
+  
+  .navbb {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .navbb .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+  }
+  
+  .nav__link {
+    position: fixed;
+    width: 94%;
+    top: 5rem;
+    left: 18px;
+    background-color: lightblue;
+  }
+  
+  .nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav__link a:hover {
+ 
+  }
+  
+  .hide {
+    display: none;
+  }
+  @media screen and (min-width: 797px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+  
+  }  .navbb {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1041px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+  
+  }  .navbb {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1040px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+    }
+  
+    .navbb {
+      display: none;
+    }
+  }
+
+
+
+  /* footer content */
+
+  .social-links i {
+    font-size: 30px; /* Icon size */
+    margin: 0 15px; /* Spacing between icons */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.social-links i:hover {
+    color: #ff4b9b; /* Change to your preferred hover color */
+}
+
+.bi-facebook {
+    color: #3b5998; /* Facebook color */
+}
+
+.bi-instagram {
+    color: #E1306C; /* Instagram color */
+}
+
+.bi-twitter {
+    color: #1DA1F2; /* Twitter color */
+}
+
+
+
+
+

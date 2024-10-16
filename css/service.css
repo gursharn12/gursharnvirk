@@ -1,0 +1,35 @@
+
+.sec1{
+
+}
+.serviceimg{
+    width: 75%;
+
+}
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.servsec{
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: aqua;
+    padding: 12px;
+    
+}
+
+.card-icon {
+    font-size: 50px;
+    color: #ff4b9b; /* Change color to match the icons you want */
+    margin-bottom: 15px;
+}
+
+
+
+/* blog */
+
+.blogimg{
+    width: 800px;
+    height: 400;
+}

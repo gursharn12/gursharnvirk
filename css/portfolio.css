@@ -1,0 +1,104 @@
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio .portfolio-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio .portfolio-wrap img {
+    width: 100%;
+    height: 200px; /* Adjust height for uniformity */
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-links {
+    opacity: 1;
+}
+
+.portfolio .portfolio-links a {
+    font-size: 28px;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.portfolio .portfolio-links a:hover {
+    color: #007bff;
+}
+
+.portfolio h5 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.portfolio p {
+    color: #777;
+}
+
+
+.project1{
+    background-image: url(./imgs/feemanage.png);
+}
+
+
+
+
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-wrap img {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-wrap:hover img {
+    transform: scale(1.1); /* Zoom effect */
+}
+
+.portfolio-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-links {
+    opacity: 1; /* Show the link on hover */
+}
+
+.portfolio-links a {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
